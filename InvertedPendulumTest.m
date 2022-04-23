@@ -15,7 +15,7 @@ function testProper(testCase)
 test_proper = [1 0.5 10];
 actSolution = stabilize2ref(test_proper);
 expSolution = 0.5;
-verifyEqual(testCase,actSolution,expSolution,"AbsTol",1e-03)
+verifyEqual(testCase,actSolution,expSolution,"AbsTol",1e-01)
 end
 
 function testSlow(testCase)
